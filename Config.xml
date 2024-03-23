@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ROOT>
+  <TypeList>
+    <Type name="Antminer S17 Pro" coin="BTC/BCH" unit="GH" hashrate="28800" chainNum="3" minerChipNum="144" />
+    <Type name="Antminer S17" coin="BTC/BCH" unit="GH" hashrate="28800" chainNum="3" minerChipNum="144" />
+    <Type name="Antminer T17" coin="BTC/BCH" unit="GH" hashrate="28800" chainNum="3" minerChipNum="144" />
+    <Type name="Antminer S9" coin="BTC/BCH" unit="GH" hashrate="12825" chainNum="3" minerChipNum="189" />
+    <Type name="Antminer S9i" coin="BTC/BCH" unit="GH" hashrate="12825" chainNum="3" minerChipNum="189" />
+    <Type name="Antminer T15" coin="BTC/BCH" unit="GH" hashrate="21850" chainNum="3" minerChipNum="189" />
+    <Type name="Antminer S15" coin="BTC/BCH" unit="GH" hashrate="26600" chainNum="3" minerChipNum="189" />
+    <Type name="Antminer L3+" coin="LTC" unit="MH" hashrate="478" chainNum="4" minerChipNum="288" />
+    <Type name="Antminer L3++" coin="LTC" unit="MH" hashrate="478" chainNum="4" minerChipNum="288" />
+    <Type name="Antminer T9+" coin="BTC/BCH" unit="GH" hashrate="9975" chainNum="9" minerChipNum="162" />
+    <Type name="Antminer X3" coin="XMC" unit="KH" hashrate="204" chainNum="3" minerChipNum="180" />
+    <Type name="Antminer B3" coin="BTM" unit="H" hashrate="741" chainNum="3" minerChipNum="180" />
+    <Type name="Antminer T9" coin="BTC/BCH" unit="GH" hashrate="9975" chainNum="3" minerChipNum="171" />
+    <Type name="Antminer L3" coin="LTC" unit="MH" hashrate="237" chainNum="4" minerChipNum="144" />
+    <Type name="Antminer D3" coin="DASH" unit="MH" hashrate="18330" chainNum="3" minerChipNum="180" />
+    <Type name="Antminer S7" coin="BTC/BCH" unit="GH" hashrate="4500" chainNum="3" minerChipNum="135" />
+    <Type name="Antminer A3" coin="SC" unit="GH" hashrate="774" chainNum="3" minerChipNum="180" />
+    <Type name="Antminer V9" coin="BTC/BCH" unit="GH" hashrate="3800" chainNum="3" minerChipNum="135" />
+    <Type name="Antminer Z9" coin="ZEC" unit="KSol" hashrate="38" chainNum="3" minerChipNum="12" />
+    <Type name="Antminer E3" coin="ETH/ETC" unit="MH" hashrate="170" chainNum="3" minerChipNum="12" />
+    <Type name="Antminer Z9-Mini" coin="ZEC" unit="KSol" hashrate="9" chainNum="3" minerChipNum="12" />
+    <Type name="Antminer S9j" coin="BTC/BCH" unit="GH" hashrate="12825" chainNum="3" minerChipNum="189" />
+    <Type name="Antminer S17+" coin="BTC/BCH" unit="TH" hashrate="70" chainNum="3" minerChipNum="195" />
+    <Type name="Antminer T17e" coin="BTC/BCH" unit="TH" hashrate="50" chainNum="3" minerChipNum="234" />
+    <Type name="Antminer S9 Hydro" coin="BTC/BCH" unit="GH" hashrate="12825" chainNum="3" minerChipNum="162" />
+    <Type name="Antminer D5" coin="DASH" unit="GH" hashrate="113" chainNum="3" minerChipNum="252" />
+  </TypeList>
+  <TypeVersion value="0.9" />
+  <IPList>
+  </IPList>
+  <MonitorInterval value="0" />
+  <IPSectorNum value="2" />
+  <OperateInterval value="3" />
+  <!--<Language Source="lang\zh_CN.xaml"/>-->
+  <!--<Language Source="lang\en_US.xaml"/>-->
+  <PoolList>
+    <Pool coin="BTC/BCH" pool1="stratum+tls://ss.tls.antpool.com:3333" pool2="stratum+tls://ss.tls.antpool.com:443" pool3="stratum+tls://ss.tls.antpool.com:25" worker1="antminer" worker2="antminer" worker3="antminer" pwd1="123" pwd2="123" pwd3="123" />
+    <Pool coin="LTC" pool1="stratum-ltc.antpool.com:8888" pool2="stratum-ltc.antpool.com:443" pool3="stratum-ltc.antpool.com:25" worker1="antminer" worker2="antminer" worker3="antminer" pwd1="123" pwd2="123" pwd3="123" />
+    <Pool coin="DASH" pool1="stratum-dash.antpool.com:6099" pool2="stratum-dash.antpool.com:443" pool3="stratum-dash.antpool.com:25" worker1="antminer" worker2="antminer" worker3="antminer" pwd1="123" pwd2="123" pwd3="123" />
+    <Pool coin="SC" pool1="stratum-sc.antpool.com:7777" pool2="stratum-sc.antpool.com:443" pool3="stratum-sc.antpool.com:25" worker1="antminer" worker2="antminer" worker3="antminer" pwd1="123" pwd2="123" pwd3="123" />
+    <Pool coin="XMC" pool1="stratum-xmc.antpool.com:5555" pool2="stratum-xmc.antpool.com:443" pool3="stratum-xmc.antpool.com:25" worker1="antminer" worker2="antminer" worker3="antminer" pwd1="123" pwd2="123" pwd3="123" />
+    <Pool coin="BTM" pool1="stratum-btm.antpool.com:6666" pool2="stratum-btm.antpool.com:443" pool3="stratum-btm.antpool.com:25" worker1="antminer" worker2="antminer" worker3="antminer" pwd1="123" pwd2="123" pwd3="123" />
+    <Pool coin="ETH" pool1="stratum-eth.antpool.com:8008" pool2="stratum-eth.antpool.com:443" pool3="stratum-eth.antpool.com:25" worker1="0x0000000000000000000000000000000000000000" worker2="0x0000000000000000000000000000000000000000" worker3="0x0000000000000000000000000000000000000000" pwd1="antminer" pwd2="antminer" pwd3="antminer" />
+    <Pool coin="ETC" pool1="stratum-etc.antpool.com:8008" pool2="stratum-etc.antpool.com:443" pool3="stratum-etc.antpool.com:25" worker1="0x0000000000000000000000000000000000000000" worker2="0x0000000000000000000000000000000000000000" worker3="0x0000000000000000000000000000000000000000" pwd1="antminer" pwd2="antminer" pwd3="antminer" />
+    <Pool coin="ZEC" pool1="stratum-zec.antpool.com:8899" pool2="stratum-zec.antpool.com:443" pool3="stratum-zec.antpool.com:25" worker1="antminer" worker2="antminer" worker3="antminer" pwd1="123" pwd2="123" pwd3="123" />
+  </PoolList>
+  <PoolChoose value="0" />
+  <Version value="1.0.8" />
+  <Password value="MZtFEwmFD1I=" />
+  <!--<Password value="k4sLzCqGRCwA56SwSVW+odaF4qTE36HDWXwH7t1zcrlLYpzM2AI5daIqlrUn9OCe1Iy2IKWlrlKmG1uTIuI4CMphbkGwEzkW" />-->
+  <Columms>
+    <Columm serial="0" value="IP" visible="True" canUserSort="True" width="1" lang="column_miner_ip" />
+    <Columm serial="1" value="Status" visible="True" canUserSort="True" width="1" lang="column_status" />
+    <Columm serial="2" value="DetailDisplay" visible="True" canUserSort="True" width="1" lang="column_detail" />
+    <Columm serial="3" value="WorkingMode" visible="True" canUserSort="True" width="1" lang="column_mode" />
+    <Columm serial="4" value="Type" visible="True" canUserSort="True" width="1" lang="column_type" />
+    <Columm serial="5" value="Hashrate5SUnit" visible="True" canUserSort="True" width="1" lang="column_hashrate_5s" />
+    <Columm serial="6" value="HashrateAvgUnit" visible="True" canUserSort="True" width="1" lang="column_hashrate_avg" />
+    <Columm serial="7" value="HashrateIdeal" visible="True" canUserSort="True" width="1" lang="column_hashrate_theory" />
+    <Columm serial="8" value="Elapsed" visible="True" canUserSort="True" width="1" lang="column_elapsed" />
+    <Columm serial="9" value="Pool1" visible="True" canUserSort="True" width="1" lang="column_pool1" />
+    <Columm serial="10" value="Worker1" visible="True" canUserSort="True" width="1" lang="column_worker1" />
+    <Columm serial="11" value="Pool2" visible="True" canUserSort="True" width="1" lang="column_pool2" />
+    <Columm serial="12" value="Worker2" visible="True" canUserSort="True" width="1" lang="column_worker2" />
+    <Columm serial="13" value="Pool3" visible="True" canUserSort="True" width="1" lang="column_pool3" />
+    <Columm serial="14" value="Worker3" visible="True" canUserSort="True" width="1" lang="column_worker3" />
+    <Columm serial="15" value="Freq" visible="True" canUserSort="True" width="1" lang="column_frequency" />
+    <Columm serial="16" value="Version" visible="True" canUserSort="True" width="1" lang="column_firmware_version" />
+    <Columm serial="17" value="FanSpeed" visible="True" canUserSort="True" width="1" lang="column_fan_speed" />
+    <Columm serial="18" value="Temp1" visible="True" canUserSort="True" width="1" lang="column_temp1" />
+    <Columm serial="19" value="Temp1Diff" visible="True" canUserSort="True" width="1" lang="column_temp1_diff" />
+    <Columm serial="20" value="Temp2" visible="True" canUserSort="True" width="1" lang="column_temp2" />
+    <Columm serial="21" value="Temp2Diff" visible="True" canUserSort="True" width="1" lang="column_temp2_diff" />
+    <Columm serial="22" value="Protocol" visible="True" canUserSort="True" width="1" lang="column_protocol" />
+    <!--<Columm serial="20" value="Mac" visible="True" canUserSort="True" width="1" lang="column_mac"/>-->
+    <Columm serial="23" value="ChainNum" visible="True" canUserSort="True" width="1" lang="column_chain_num" />
+    <Columm serial="24" value="Asc" visible="True" canUserSort="True" width="1" lang="column_asc" />
+    <Columm serial="25" value="AcsOnum" visible="True" canUserSort="True" width="1" lang="column_chip_o_num" />
+    <Columm serial="26" value="AcsXnum" visible="True" canUserSort="True" width="1" lang="column_chip_x_num" />
+    <Columm serial="27" value="HW" visible="True" canUserSort="True" width="1" lang="column_hw" />
+    <!--<Columm serial="26" value="Rate" visible="True" canUserSort="True" width="1" lang="column_rate"/>-->
+  </Columms>
+  <SupportFirms>
+    <SupportFirm name="ANTMINER" enable="True" priority="1" />
+    <SupportFirm name="INNOSILICON" enable="False" priority="2" />
+  </SupportFirms>
+  <SocketTimeout value="250" />
+  <HttpTimeout value="5000" />
+  <ScanThreadNum value="18" />
+  <ScanTimeout value="5" />
+  <UpgradeThreadNum value="5" />
+  <UpgradeTimeout value="180" />
+  <OperateThreadNum value="500" />
+  <OperateTimeout value="40" />
+  <BlinkTime value="10" />
+  <PcbMaxTemp value="80" />
+  <PcbMinTemp value="30" />
+  <PcbTempDiff value="30" />
+  <ChipMaxTemp value="95" />
+  <ChipMinTemp value="30" />
+  <ChipTempDiff value="30" />
+  <HW value="0.0003" />
+  <Modes>
+    <Mode mode="1" modeDesc="Normal" />
+    <Mode mode="228" modeDesc="HashRate+2.0TH/S" />
+    <Mode mode="227" modeDesc="HashRate+1.5TH/S" />
+    <Mode mode="226" modeDesc="HashRate+1.0TH/S" />
+    <Mode mode="225" modeDesc="HashRate+0.5TH/S" />
+    <Mode mode="250" modeDesc="HashRate Unchanged-Lower Voltage" />
+    <Mode mode="241" modeDesc="HashRate-0.5TH/S" />
+    <Mode mode="242" modeDesc="HashRate-1.0TH/S" />
+    <Mode mode="243" modeDesc="HashRate-1.5TH/S" />
+    <Mode mode="244" modeDesc="HashRate-2.0TH/S" />
+    <Mode mode="245" modeDesc="HashRate-2.5TH/S" />
+    <Mode mode="246" modeDesc="HashRate-3.0TH/S" />
+    <Mode mode="240" modeDesc="Low Power Enhanced Mode" />
+    <Mode mode="0" modeDesc="Normal" />
+    <Mode mode="1000" modeDesc="HashRate+1.0TH/S" />
+    <Mode mode="2000" modeDesc="HashRate+2.0TH/S" />
+    <Mode mode="3000" modeDesc="HashRate+3.0TH/S" />
+    <Mode mode="4000" modeDesc="HashRate+4.0TH/S" />
+    <Mode mode="5000" modeDesc="HashRate+5.0TH/S" />
+    <Mode mode="6000" modeDesc="HashRate+6.0TH/S" />
+    <Mode mode="7000" modeDesc="HashRate+7.0TH/S" />
+    <Mode mode="8000" modeDesc="HashRate+8.0TH/S" />
+    <Mode mode="9000" modeDesc="HashRate+9.0TH/S" />
+    <Mode mode="10000" modeDesc="HashRate+10.0TH/S" />
+  </Modes>
+  <VirusThreadNum name="VirusThreadNum" value="5">
+  </VirusThreadNum>
+  <VirusThreadNumEnable name="VirusThreadNumEnable" value="False">
+  </VirusThreadNumEnable>
+  <VirusFirms>
+    <VirusFirm type="Antminer S9" firm="antminer-S9" />
+    <VirusFirm type="Antminer S9i" firm="antminer-S9i" />
+    <VirusFirm type="Antminer S9j" firm="antminer-S9j" />
+    <VirusFirm type="Antminer T9+" firm="antminer-T9+" />
+    <VirusFirm type="Antminer T9" firm="antminer-T9" />
+    <VirusFirm type="Antminer L3+" firm="antminer-L3+" />
+    <VirusFirm type="Antminer L3++" firm="antminer-L3++" />
+    <VirusFirm type="Antminer D3" firm="antminer-D3" />
+    <VirusFirm type="Antminer A3" firm="antminer-A3" />
+    <VirusFirm type="Antminer X3" firm="antminer-X3" />
+    <VirusFirm type="Antminer E3" firm="antminer-E3" />
+    <VirusFirm type="Antminer L3" firm="antminer-L3" />
+    <VirusFirm type="Antminer Z9" firm="antminer-Z9" />
+    <VirusFirm type="Antminer Z9-Mini" firm="antminer-Z9-Mini" />
+    <VirusFirm type="Antminer R4" firm="antminer-R4" />
+    <VirusFirm type="Antminer DR3" firm="antminer-DR3" />
+    <VirusFirm type="Antminer V9" firm="antminer-V9" />
+  </VirusFirms>
+</ROOT>
