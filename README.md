@@ -62,7 +62,7 @@ BTC tools – одна из лучших программ для майнинг�
 Обратите внимание, что обнаружатся только те майнеры, которые уже идентифицированы. Чтобы посмотреть данные по полностью всем имеющимся ASIC, то надо убрать галочку с этого пункта:
 
 
-![image](https://github.com/atom-miner/btc/assets/103080127/ecfe7cfc-3189-43bb-91e0-1545928b119c)
+![image](https://private-user-images.githubusercontent.com/103080127/316271068-2c16f369-e081-4276-bb0d-50c37c8109b9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMzEzMTUsIm5iZiI6MTcxMTIzMTAxNSwicGF0aCI6Ii8xMDMwODAxMjcvMzE2MjcxMDY4LTJjMTZmMzY5LWUwODEtNDI3Ni1iYjBkLTUwYzM3YzgxMDliOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyM1QyMTU2NTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04MTRjYTNiMDEyZTk1YjUxMzkwNjM5YjY3ODFhNDAyZjc1YjhhMzE4MDI2MWQ3ZWJiZWI2OTI4OWI2ZDQxMGQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.3OSF4ukMIDXWjCH5oPKzhh5G5ySPaVFwD09JuhrAok0)
 
 
 
