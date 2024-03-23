@@ -1,6 +1,6 @@
 # BTCTools - программа для управления асик майнерами (Виндовс/Линукс/МакОС)
 
-![image](https://github.com/atom-miner/btc/assets/103080127/93354c69-07e8-477c-abdc-ec22516a8fcf)
+![image](https://private-user-images.githubusercontent.com/103080127/316270275-17233219-e32d-42a0-8c1d-a47e225451ce.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMzAyNjksIm5iZiI6MTcxMTIyOTk2OSwicGF0aCI6Ii8xMDMwODAxMjcvMzE2MjcwMjc1LTE3MjMzMjE5LWUzMmQtNDJhMC04YzFkLWE0N2UyMjU0NTFjZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyM1QyMTM5MjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZTFmYzQwNTZmNWNkODllODI3ZGM5OTgxOGEyMjAwNWJmYzNkYjZlZmYzMWJmYWZkOTE5YWEyMDhiYjI1ZjhkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qsU3a-RWo104eDDpl3qKN5-If59yrHdqRLkaH7UlIfs)
 
 BTC tools – одна из лучших программ для майнинга, благодаря этой программе вы можете найти свой ASIC в сети, что упрощает процесс и затрат времени.
 
@@ -25,14 +25,15 @@ BTC tools – одна из лучших программ для майнинг�
 ## Инструмент для прошивки ASIC
 Поиск асиков так же возможен с помощь других инструментов ASIC Antminers. Поддержка всех Antminers, настройка занятого IP-адреса, настройка прямого подключения к пулу.
 
-![image](https://github.com/atom-miner/btc/assets/103080127/fe9b1591-08f0-475b-86f9-c129e3cecd2d)
+![image](https://private-user-images.githubusercontent.com/103080127/316270182-2267c3ab-f126-40c9-9425-3d234cf8e5d7.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMzAxODgsIm5iZiI6MTcxMTIyOTg4OCwicGF0aCI6Ii8xMDMwODAxMjcvMzE2MjcwMTgyLTIyNjdjM2FiLWYxMjYtNDBjOS05NDI1LTNkMjM0Y2Y4ZTVkNy5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyM1QyMTM4MDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02MzQzYTlhMGQzOWFmZTUxNzc1ZmFiNmJlNmJlZGVmODQxYmJmNWI1NmRkZDMzODk3ZGI0YTZhZGQ1OTQ4ZDI1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.tRnxe3Pd7EsU8IJnaMmOFD3-HSOKrKIRUQpmbzyaZ3A)
 - [ ] [Скачать Set Miners Static IP Tools](https://url.btc.com/miner-ip-tools-download)
 
 ## Как работать с BTC tools 
 Утилита автоматически обнаружит доступный диапазон IP-адресов в локальной сети. Если вы видите, что здесь допущена ошибка, то можно добавить вручную, нажав на «+» и прописав необходимый адрес:
 
 
-![image](https://github.com/atom-miner/btc/assets/103080127/6ce6cd1b-ad9a-4c44-9688-f98c8aa22572)
+![image](https://private-user-images.githubusercontent.com/103080127/316270459-1c414d2f-b4a9-4088-af6c-b8853f8652d9.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMzA0NzcsIm5iZiI6MTcxMTIzMDE3NywicGF0aCI6Ii8xMDMwODAxMjcvMzE2MjcwNDU5LTFjNDE0ZDJmLWI0YTktNDA4OC1hZjZjLWI4ODUzZjg2NTJkOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyM1QyMTQyNTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mN2M2OWM0ZDUwMThmMjU5MmUwYmIzNzZjYTRmODJkNmE5ZWViYTFjYjhhNjY5MmZlMzBjMjUyYmZlNmRiMWJkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.lmvCVjnNDrlVfSaF8fv_dLPIKf3J9oW_Xf0qwuWkK3E)
+
 - Запускаете сканирование нажатием на «Scan» и дожидаетесь окончания:
 
 После этого будут показаны все найденные майнеры, а также отобразится основная информация по ним:
@@ -54,7 +55,7 @@ BTC tools – одна из лучших программ для майнинг�
 Всё это представляется в виде таблицы примерно такого формата:
 
 
-![image](https://github.com/atom-miner/btc/assets/103080127/24e3932a-7517-4bfd-a036-9bf69cfc882c)
+![image](https://private-user-images.githubusercontent.com/103080127/316270504-c70cc99c-430e-4b68-95b7-54cb2825e5d3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTEyMzA1NTEsIm5iZiI6MTcxMTIzMDI1MSwicGF0aCI6Ii8xMDMwODAxMjcvMzE2MjcwNTA0LWM3MGNjOTljLTQzMGUtNGI2OC05NWI3LTU0Y2IyODI1ZTVkMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMyM1QyMTQ0MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ZDliOThkYWYxZWU1Y2Q2ZGYzZWZiY2YxZDc0Zjk1Y2IyYWUyNzZkMzJiMmQxMDQ3OWRlOWM5MjcxN2RhZjlhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.jYTpw6s53v_mDamkEC5SiFTm3v1UziS_lK2pgZRqLGM)
 
 
 На каждый из заголовков можно нажать, чтобы выполнить сортировку по конкретному пункту.
@@ -73,7 +74,7 @@ BTC tools – одна из лучших программ для майнинг�
 Выделяем 1 или несколько АСИК и нажимаем на кнопку "Firmware Upgrade" откроется окно
 
 
-![image](https://github.com/atom-miner/btc/assets/103080127/521f823a-87b3-4e0d-8aec-1b49b9f02cac)
+![image]
 
 
 В нём можно выбрать модель майнера, хотя программа сделает это автоматически. Во второй строчке надо прописать путь до новой прошивки. Установленная галочка на «Keep settings» позволит сохранить настройки для текущего оборудования. Если её не поставить, тогда придётся прописывать всё потом вручную, включая пул, о чём было рассказано выше. «Upgrade Selected» – обновить выбранные, а «Upgrade All» – обновить все доступные.
