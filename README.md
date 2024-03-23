@@ -1,6 +1,6 @@
 # BTCTools - программа для управления асик майнерами (Виндовс/Линукс/МакОС)
 
-![image]([https://user-images.githubusercontent.com/atom-miner/btc/blob/main/02.png](https://github.com/atom-miner/btc/blob/main/02.png))
+![image](https://github.com/atom-miner/btc/assets/103080127/93354c69-07e8-477c-abdc-ec22516a8fcf)
 
 BTC tools – одна из лучших программ для майнинга, благодаря этой программе вы можете найти свой ASIC в сети, что упрощает процесс и затрат времени.
 
@@ -21,167 +21,75 @@ BTC tools – одна из лучших программ для майнинг�
 - Пакетное управление ASIC и изменение большинства параметров.
 - Быстрая перезагрузка группы майнеров или отдельных участников.
 
+
+## Инструмент для прошивки ASIC
+Поиск асиков так же возможен с помощь других инструментов ASIC Antminers. Поддержка всех Antminers, настройка занятого IP-адреса, настройка прямого подключения к пулу.
+
+![image](https://github.com/atom-miner/btc/assets/103080127/fe9b1591-08f0-475b-86f9-c129e3cecd2d)
+- [ ] [Скачать Set Miners Static IP Tools](https://url.btc.com/miner-ip-tools-download)
+
 ## Как работать с BTC tools 
 Утилита автоматически обнаружит доступный диапазон IP-адресов в локальной сети. Если вы видите, что здесь допущена ошибка, то можно добавить вручную, нажав на «+» и прописав необходимый адрес:
 
 
-![image](https://user-images.githubusercontent.com/98730417/212392676-a6c38134-f0e9-46c1-ac4c-72acdd93d8cd.png)
+![image](https://github.com/atom-miner/btc/assets/103080127/6ce6cd1b-ad9a-4c44-9688-f98c8aa22572)
 - Запускаете сканирование нажатием на «Scan» и дожидаетесь окончания:
 
-## Search for ASICs using Tools.
-Then, to search for ASICs, you should click on the “Scan” button, the field of which will search for ASICs. As the program runs, the progress in the bar next to the button will change. All this time, the program will scan the network, loading it, which is why it is worth turning off all programs and unnecessary devices from this network so as not to load the network and so that the check (scan) is successful.
-![image](https://user-images.githubusercontent.com/98730417/212393216-861cd3df-6a17-429b-943f-a257ee68eb04.png)
-- [ ] [Download SetMinersStaticIP v1.3.4 for Windows/Linux/MacOS](https://github.com/Sanberstav/BTCTools/releases/download/BTCTools-v1.3.3/Set.Miners.Static.IP.v1.3.4.win.zip)
-------------------------------------------------
-## BTC Tools
-In the process of searching for devices, ASICs will be displayed in the list below. In the list you can see the IP, ASIC status, name, operation mode, two ASIC hash rate values that were found during the search. In addition, there is information on the heating temperature of the ASICs, the rotation speed of the fans, the operating time of the ASICs in the active mining mode, as well as the addresses of the pools and walkers to which the ASICs are actually connected.
-
-In the process of searching for devices, ASICs will be displayed in the list below. In the list you can see the IP, ASIC status, name, operation mode, two ASIC hash rate values that were found during the search. In addition, there is information on the heating temperature of the ASICs, the rotation speed of the fans, the operating time of the ASICs in the active mining mode, as well as the addresses of the pools and walkers to which the ASICs are actually connected …
-
-The main essence of the program is that you can configure your ASICs from any device and geographic location.
-
-## Dependency
-There are 4 dependencies:
-* Boost 1.59 or later (1.65 or later is validated and recommended)
-* OpenSSL (both 1.0 or 1.1 are OK)
-* Lua-5.1 or LuaJIT-2.0 (LuaJIT is recommended but incompatibly with macOS)
-* Crypto++ (5.6.5 or later)
-And `libpthread` is required on Linux and macOS.
-
-## Build on Linux
-Example on Ubuntu 18.04 x64:
-```bash
-### build tools
-apt-get install -y build-essential autotools-dev libtool autoconf automake pkg-config cmake gcc g++
-
-### install boost via apt
-apt install libboost-all-dev
-
-### or build boost 1.65 if you want (optional)
-wget https://dl.bintray.com/boostorg/release/1.65.1/source/boost_1_65_1.tar.gz
-tar zxf boost_1_65_1.tar.gz
-cd boost_1_65_1
-./bootstrap.sh
-./b2
-./b2 install
-
-### install other dependencies
-apt update
-apt install libssl-dev libluajit-5.1-dev libcrypto++-dev
-
-### clone and build
-git clone https://github.com/btccom/libbtctools.git
-cd libbtctools
-mkdir build
-cd build
-
-### build as static library
-cmake -DCMAKE_INSTALL_PREFIX=/opt/btctools -DBTCTOOLS__LIB_TYPE=STATIC ..
-make
-make install
-
-### or build as dynamic library
-cmake -DCMAKE_INSTALL_PREFIX=/opt/btctools -DBTCTOOLS__LIB_TYPE=SHARED ..
-make
-make install
-
-### running demos
-cd /opt/btctools/bin/btctools
-./ipGeneratorDemo
-./scanMinerDemo
-./configMinerDemo
-./rebootMinerDemo
-```
-
-## Build on macOS
-It seems like build on Linux. Search and install dependencies with `brew` first.
-
-Tips: install `lua-5.1` instead of `luajit-2.0`. The demo will segmentation fault with `luajit-2.0` and I don't know the reason.
-
-The command will be:
-```bash
-brew install cmake boost openssl lua@5.1 cryptopp
-
-### static library
-cmake -DCMAKE_INSTALL_PREFIX=/opt/btctools -DBTCTOOLS__LIB_TYPE=STATIC -DBTCTOOLS__LUA_TYPE=NORMAL ..
-
-### or dynamic library
-cmake -DCMAKE_INSTALL_PREFIX=/opt/btctools -DBTCTOOLS__LIB_TYPE=SHARED -DBTCTOOLS__LUA_TYPE=NORMAL ..
-
-### build & install
-make
-make install
-```
-
-## Build on Windows
-
-### Install Visual Studio
-
-Please install the C/C++ Development Kit with Visual Studio.
-
-See https://visualstudio.microsoft.com/ for more details.
-
-### Install CMake
-
-See https://cmake.org/download/ for more details.
-
-### Install vcpkg
-
-See https://github.com/Microsoft/vcpkg/ for more details.
+После этого будут показаны все найденные майнеры, а также отобразится основная информация по ним:
+-IP-адрес;
+-статус;
+-тип АСИК;
+-текущий хешрейт;
+-средний хешрейт за всё время работы в текущей сессии;
+-температура;
+-скорость вращения вентилятора;
+-время с последнего включения;
+-к какому пулу подключён;
+-внутреннее название ASIC;
+-версия прошивки;
+-используемое программное обеспечение;
+-используемое физическое оборудование;
+-название сети;
+-MAC-адрес.
+Всё это представляется в виде таблицы примерно такого формата:
 
 
-## Quick Steps:
-```
-git clone https://github.com/Microsoft/vcpkg.git
-cd vcpkg
-.\bootstrap-vcpkg.bat
-.\vcpkg integrate install
-```
-
-Example output for `.\vcpkg integrate install`:
-
-> PS G:\work\vcpkg> .\vcpkg integrate install
-> Applied user-wide integration for this vcpkg root.
-> 
-> All MSBuild C++ projects can now #include any installed libraries.
-> Linking will be handled automatically.
-> Installing new libraries will make them instantly available.
-> 
-> CMake projects should use: "-DCMAKE_TOOLCHAIN_FILE=G:/work/vcpkg/scripts/buildsystems/vcpkg.cmake"
-
-### install packages via vcpkg
+![image](https://github.com/atom-miner/btc/assets/103080127/24e3932a-7517-4bfd-a036-9bf69cfc882c)
 
 
-#### 32bit
-```
-.\vcpkg install boost:x86-windows-static openssl:x86-windows-static cryptopp:x86-windows-static luajit:x86-windows-static
-```
+На каждый из заголовков можно нажать, чтобы выполнить сортировку по конкретному пункту.
+Обратите внимание, что обнаружатся только те майнеры, которые уже идентифицированы. Чтобы посмотреть данные по полностью всем имеющимся ASIC, то надо убрать галочку с этого пункта:
 
-#### 64bit
-```
-.\vcpkg install boost:x64-windows-static openssl:x64-windows-static cryptopp:x64-windows-static luajit:x64-windows-static
-```
 
-### cmake & build
+![image](https://github.com/atom-miner/btc/assets/103080127/ecfe7cfc-3189-43bb-91e0-1545928b119c)
 
-#### 32bit
-```
-md build.32
-cd build.32
-cmake -DCMAKE_BUILD_TYPE=Release -A win32 -DCMAKE_TOOLCHAIN_FILE=G:/work/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x86-windows-static -DBTCTOOLS__STATIC_LINKING_VC_LIB=ON -DBTCTOOLS__LIB_TYPE=STATIC -DCMAKE_INSTALL_PREFIX=G:\work\lib32\btctools ..
-start libbtctools.sln
-```
 
-#### 64bit
-```
-md build.64
-cd build.64
-cmake -DCMAKE_BUILD_TYPE=Release -A x64 -DCMAKE_TOOLCHAIN_FILE=G:/work/vcpkg/scripts/buildsystems/vcpkg.cmake -DVCPKG_TARGET_TRIPLET=x64-windows-static -DBTCTOOLS__STATIC_LINKING_VC_LIB=ON -DBTCTOOLS__LIB_TYPE=STATIC -DCMAKE_INSTALL_PREFIX=G:\work\lib64\btctools ..
-start libbtctools.sln
-```
 
-Replace `G:/work/vcpkg/scripts/buildsystems/vcpkg.cmake` to your `vcpkg.cmake` path.
+После обнаружения АСИК, можно управлять каждым отдельно, нажав на него дважды мышкой.
+Обратите внимание, что для доступа к оборудованию, необходимо прописать в программе пароль к ним. Делается это в настройках, где для каждого вида техники есть свой отдельный пункт, а также можно добавить самостоятельно в окне "Setting".
 
-Replace `G:\work\lib[32|64]\btctools` to the install path what you want.
+## Массовая прошивка ASIC
+Для начала нужно скачать сами файлы firmware с сайта производителя. Сейчас прошиваются только Antminer, поэтому с WhatsMiner, Innosilicon и Avalon всё ещё придётся действовать по-старинке – флешки с прошивкой.
+Выделяем 1 или несколько АСИК и нажимаем на кнопку "Firmware Upgrade" откроется окно
 
-Select **Release** instead of the default **Debug** in the build type drop-down box, then build the **INSTALL** project to install.
+
+![image](https://github.com/atom-miner/btc/assets/103080127/521f823a-87b3-4e0d-8aec-1b49b9f02cac)
+
+
+В нём можно выбрать модель майнера, хотя программа сделает это автоматически. Во второй строчке надо прописать путь до новой прошивки. Установленная галочка на «Keep settings» позволит сохранить настройки для текущего оборудования. Если её не поставить, тогда придётся прописывать всё потом вручную, включая пул, о чём было рассказано выше. «Upgrade Selected» – обновить выбранные, а «Upgrade All» – обновить все доступные.
+Останется подождать, пока прошивка зальётся и установится на устройства, после выйдет уведомление.
+Дождитесь полной перезагрузки оборудования. Если ранее была выбрана опция «Keep settings», то IP-адреса не изменятся и ASIC в BTC tools сразу отобразятся. Если галочки не было, то потребуется повторное сканирование.
+
+
+
+## BTC Tools вывод
+Когда можно управлять всем оборудованием из 1 программы, это значительно облегчает работу как для новичков так и профессионалов в сфере криптовалют. Утилита удобная, тут нет каких-то сложных настроек, не нужны глубокие знания блокчейна, функционирования софта или чего-то подобного. В программе нет никакой ежемесячной платы, подписки и т.п. Открыл файл, регулируешь нужные параметры, мониторишь работу техники, меняешь базовые настройки – максимальное удобство.
+
+Отметим что BTC Tools является очень удобной, быстрой и постоянно обновляемой программой.
+
+
+
+
+
+
+
